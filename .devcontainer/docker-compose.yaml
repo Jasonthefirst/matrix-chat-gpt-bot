@@ -1,0 +1,16 @@
+version: '3.9'
+services: 
+  app: 
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    
+    volumes:
+    # this volume saves all transformer models. This can get BIG. But with a rebuild of the container you don't have to redownload the models
+      - ./transformers:/root/.cache/huggingface/transformers
+      
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: ["gpu"]
