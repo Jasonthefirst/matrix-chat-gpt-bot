@@ -1,0 +1,9 @@
+pandas
+pynvml
+transformers
+flask
+flask_restful
+flask-cors
+ipywidgets
+websockets
+simplematrixbotlib
