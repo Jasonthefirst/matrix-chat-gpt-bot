@@ -1,3 +1,5 @@
+# This repository will not be maintained anymore. Please find the new maintained repository at: [https://gitlab.fristerspace.de/demian/matrix-chat-gpt-bot](https://gitlab.fristerspace.de/demian/matrix-chat-gpt-bot)
+
 # Install
 
 To use the bot you have to install docker on a machine (preferably with a big GPU), install docker gpu and everything that is needed for docker to use the GPU.
